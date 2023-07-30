@@ -32,7 +32,7 @@ public class Spider
     
     public async Task<List<string>> GetPixivPictureInPage(List<string> id, bool isFirstPage = true)
     {
-        var client = new RestClient($"https://www.pixiv.net/ajax/user/10137972/profile/illusts");
+        var client = new RestClient($"https://www.pixiv.net/ajax/user/{id}/profile/illusts");
         var req = new RestRequest();
         id.ForEach(sp => req.AddParameter("ids[]", sp));
         req.AddParameter("work_category", "illustManga");
