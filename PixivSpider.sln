@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixivSpider", "PixivSpider\PixivSpider.csproj", "{BECFECB5-11D2-41DF-9EAB-E661F06E4FE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiderTest", "SpiderTest\SpiderTest.csproj", "{24C069A7-21A6-4AD9-99D8-EC1FE03D752E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BECFECB5-11D2-41DF-9EAB-E661F06E4FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECFECB5-11D2-41DF-9EAB-E661F06E4FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECFECB5-11D2-41DF-9EAB-E661F06E4FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECFECB5-11D2-41DF-9EAB-E661F06E4FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C069A7-21A6-4AD9-99D8-EC1FE03D752E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C069A7-21A6-4AD9-99D8-EC1FE03D752E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C069A7-21A6-4AD9-99D8-EC1FE03D752E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C069A7-21A6-4AD9-99D8-EC1FE03D752E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
